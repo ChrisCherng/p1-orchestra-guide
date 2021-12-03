@@ -1,0 +1,24 @@
+/* Navigation menu styles */
+
+.page-title, #menu {
+    line-height: 75px;
+}
+
+.page-title {
+    float: left;
+}
+
+#menu {
+    float: right;
+    width: 30%;
+}
+
+#menu li {
+    display: inline;
+    padding: 0 2% 0 2%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+}
