@@ -66,31 +66,22 @@ h1 {
     padding-top: 20px;
 }
 
+#welcome {
+    text-transform: uppercase;
+}
+
 #intro-text {
-    width: 33%;
+    width: 60%;
     float: left;
     display: inline;
 }
 
 #intro-video {
-    width: 33%;
-    margin: 0 auto;
-    display: inline;
-    clear: both;
-}
-
-#intro-image {
-    width: 33%;
+    width: 40%;
     float: right;
     display: inline;
-}
-
-#intro-image img {
-    width: 55%;
-    height: 55%;
-    display: block;
-    object-fit: cover;
-    margin: 0 auto;
+    display: flex;
+    justify-content: right;
 }
 
 /* Menu of sections styles */
@@ -144,6 +135,10 @@ footer {
         clear: both;
         padding:0;
     }
+
+    .page-title, #menu {
+        line-height: 50px;
+    }
     
     #menu {
         float: left;
@@ -170,12 +165,8 @@ footer {
 
     #intro-video {
         width: 100%;
-        clear: both;
-        margin: auto;
-    }
-
-    #intro-image {
-        display: none;
+        display: flex;
+        justify-content: left;
     }
 
     #section-menu {
@@ -187,8 +178,3 @@ footer {
         clear: both;
     }
   }
-
-/* Media queries for mobiles */
-@media (max-width: 480px) {
-
-}
