@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
 body {
     background-color: #702500;
     color: #FFF0B8;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 }
 
 /* Navigation menu styles */
@@ -11,22 +19,28 @@ body {
 
 .page-title {
     float: left;
-    margin-left: 0.5%
+    margin-left: 0.5%;
+    color: #FFF0B8;
 }
 
 #menu {
     float: right;
-    width: 30%;
+    width: 50%;
 }
 
 #menu li {
     display: inline;
     padding: 0 2% 0 2%;
+    float: right;
 }
 
 #menu a {
     text-decoration: none;
     color: #FFF0B8;
+}
+
+#menu a:hover {
+    font-weight: bold;
 }
 
 /* Hero image styles*/
@@ -47,34 +61,43 @@ body {
 /* Introduction section styles */
 
 #intro-section {
-    height: 450px;
+    height: 300px;
     width: 100%;
+    padding-top: 20px;
 }
 
 #intro-text {
-    width: 66%;
+    width: 33%;
     float: left;
+    display: inline;
+}
+
+#intro-video {
+    width: 33%;
+    margin: 0 auto;
+    display: inline;
+    clear: both;
 }
 
 #intro-image {
     width: 33%;
     float: right;
+    display: inline;
 }
 
 #intro-image img {
-    width: 60%;
-    height: 60%;
+    width: 55%;
+    height: 55%;
     display: block;
     object-fit: cover;
     margin: 0 auto;
-    padding-top: 50px;
 }
 
 /* Menu of sections styles */
 
 #section-menu {
     clear: both;
-    height: 300px;
+    height: 375px;
     padding-top: 10px;
 }
 
@@ -83,6 +106,7 @@ body {
     width: 25%;
     height: 300px;
     float: left;
+    display: inline;
 }
 
 .section-box img {
@@ -91,18 +115,14 @@ body {
     display: block;
 }
 
-.section-box a {
-    text-decoration: none;
-    color: black;
-    text-align: center;
-}
-
 .caption {
     position: absolute;
     bottom: 8px;
     left: 16px;
     background-color: rgba(71, 71, 71, 0.5);
     color: #FFF0B8;
+    text-transform: uppercase;
+    font-size: x-large;
 }
 
 /* Footer styles */
@@ -112,6 +132,63 @@ footer {
     background-color: #474747;
     color: white;
     height: 75px;
-    padding-top: 10px;
     text-align: center;
+    padding-top: 10px;
+    width: 100%;
+    margin: 0;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 1200px) {
+    .page-title {
+        clear: both;
+        padding:0;
+    }
+    
+    #menu {
+        float: left;
+        width: 100%;
+        padding: 0;
+    }
+    
+    #menu ul {
+        padding-inline-start: 0;
+    }
+
+    #menu li {
+        text-align: left;
+        float: left;
+    }
+
+    #intro-section {
+        display: block;
+    }
+
+    #intro-text {
+        width: 100%;
+    }
+
+    #intro-video {
+        width: 100%;
+        clear: both;
+        margin: auto;
+    }
+
+    #intro-image {
+        display: none;
+    }
+
+    #section-menu {
+        height: auto;
+    }
+
+    .section-box {
+        width: 100%;
+        clear: both;
+    }
+  }
+
+/* Media queries for mobiles */
+@media (max-width: 480px) {
+
 }
