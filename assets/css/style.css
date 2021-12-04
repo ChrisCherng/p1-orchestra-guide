@@ -1,3 +1,8 @@
+body {
+    background-color: #702500;
+    color: #FFF0B8;
+}
+
 /* Navigation menu styles */
 
 .page-title, #menu {
@@ -6,6 +11,7 @@
 
 .page-title {
     float: left;
+    margin-left: 0.5%
 }
 
 #menu {
@@ -20,5 +26,92 @@
 
 #menu a {
     text-decoration: none;
+    color: #FFF0B8;
+}
+
+/* Hero image styles*/
+
+#hero-image {
+    clear: both;
+}
+
+#hero-image img {
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+
+/* Introduction section styles */
+
+#intro-section {
+    height: 450px;
+    width: 100%;
+}
+
+#intro-text {
+    width: 66%;
+    float: left;
+}
+
+#intro-image {
+    width: 33%;
+    float: right;
+}
+
+#intro-image img {
+    width: 60%;
+    height: 60%;
+    display: block;
+    object-fit: cover;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+/* Menu of sections styles */
+
+#section-menu {
+    clear: both;
+    height: 300px;
+    padding-top: 10px;
+}
+
+.section-box {
+    position: relative;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+.section-box img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.section-box a {
+    text-decoration: none;
     color: black;
+    text-align: center;
+}
+
+.caption {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    background-color: rgba(71, 71, 71, 0.5);
+    color: #FFF0B8;
+}
+
+/* Footer styles */
+
+footer {
+    clear:both;
+    background-color: #474747;
+    color: white;
+    height: 75px;
+    padding-top: 10px;
+    text-align: center;
 }
