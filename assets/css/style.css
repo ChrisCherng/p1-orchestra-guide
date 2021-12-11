@@ -28,6 +28,10 @@ h1 {
     width: 50%;
 }
 
+#menu ul {
+    padding-inline-start: 0;
+}
+
 #menu li {
     display: inline;
     padding: 0 2% 0 2%;
@@ -152,10 +156,11 @@ footer {
 }
 
 .section-instruments {
-    width: 40%;
+    width: 35%;
     float: right;
     display: inline;
     justify-content: left;
+    padding-left: 10px;
 }
 
 .instruments-table {
@@ -175,6 +180,7 @@ footer {
 
 .section-videos {
     clear: both;
+    padding-top: 10px;
 }
 
 /* Media queries for smaller screens */
@@ -232,12 +238,15 @@ footer {
     }
   }
 
- /* Media queries for mobiles 480px width */
+ /* Media queries for mobiles */
 
- @media (max-width: 480px) {
+ @media (max-width: 580px) {
 
     iframe {
-        width: 460px;
-        height: 260px;
+        width: 100%;
+    }
+
+    nav li {
+        font-size: small;
     }
  }
