@@ -151,7 +151,6 @@ footer {
     width: 40%;
     float: right;
     display: inline;
-    display: flex;
     justify-content: left;
 }
 
@@ -168,6 +167,10 @@ footer {
 .instruments-table th, td {
     border: 1px solid black;
     padding: 5px 0 5px 15px;
+}
+
+.section-videos {
+    clear: both;
 }
 
 /* Media queries for smaller screens */
@@ -213,6 +216,14 @@ footer {
     .section-box {
         width: 100%;
         clear: both;
+    }
+
+    .section-text {
+        width: 100%;
+    }
+
+    .section-instruments {
+        width: 100%;
     }
   }
 
