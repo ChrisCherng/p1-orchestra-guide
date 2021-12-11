@@ -116,15 +116,19 @@ h1 {
     font-size: x-large;
 }
 
+.section-box:hover img {
+    opacity: 0.3;
+}
+
 /* Footer styles */
 
 footer {
     clear:both;
     background-color: #474747;
     color: white;
-    height: 75px;
+    height: 50px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 1px;
     width: 100%;
     margin: 0;
 }
@@ -174,6 +178,7 @@ footer {
 }
 
 /* Media queries for smaller screens */
+
 @media (max-width: 1200px) {
     .page-title {
         clear: both;
