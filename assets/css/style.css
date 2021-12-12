@@ -9,12 +9,13 @@ body {
 h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
+    margin-block-start: 0;
 }
 
 /* Navigation menu styles */
 
 .page-title, #menu {
-    line-height: 75px;
+    line-height: 50px;
 }
 
 .page-title {
@@ -26,16 +27,19 @@ h1 {
 #menu {
     float: right;
     width: 50%;
+    margin-block-start: 0;
 }
 
 #menu ul {
     padding-inline-start: 0;
+    margin-block-start: 0;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #menu li {
     display: inline;
     padding: 0 2% 0 2%;
-    float: right;
 }
 
 #menu a {
@@ -189,21 +193,21 @@ footer {
     .page-title {
         clear: both;
         padding:0;
+        margin-block-end: 0;
     }
-
-    .page-title, #menu {
-        line-height: 50px;
-    }
-    
+   
     #menu {
         float: left;
         width: 100%;
         padding: 0;
     }
     
+    #menu ul {
+        justify-content: flex-start;
+    }
+
     #menu li {
         text-align: left;
-        float: left;
     }
 
     #intro-section {
