@@ -2,7 +2,7 @@
 
 <p>The Guide to the Orchestra aims to provide an exciting resource and educational site, targeted for students, musicians and anyone interested in classical music.</p>
 
-<img src="#">
+![Image from "Am I Responsive"](/assets/images/responsive-website-image.png)
 
 ## **Features**
 ### **Existing Features**
