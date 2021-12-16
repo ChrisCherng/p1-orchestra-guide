@@ -5,6 +5,7 @@
 ![Image from "Am I Responsive"](/assets/images/responsive-website-image.png)
 
 ## **Features**
+***
 ### **Existing Features**
 
 * **Navigation Bar**
@@ -56,16 +57,19 @@
 * Hamburger menu for navigation when using small screens - to implement using Javascript.
 
 ## **Testing**
-
+***
 ### **Validator Testing**
 
 * HTML
   - No errors were returned when using the official [W3C validator](https://validator.w3.org/).
 * CSS
   - No errors were found when using the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/).
-
+* Accessibility
+  - No errors were detected when using the Wave (Web Accessibility Evaluation Tool) [extension](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh).
+  - Google Lighthouse report output a 100 score for accessibility.
 
 ## **Deployment**
+***
 The site was deployed to GitHub pages using the following steps:
 * In the GitHub repository, navigate to the Settings section.
 * Open the Pages section.
@@ -75,6 +79,7 @@ The site was deployed to GitHub pages using the following steps:
 The live link can be found here - https://chrischerng.github.io/p1-orchestra-guide/
 
 ## **Credits**
+***
 ### **Content**
 * The icons used in the headings were taken from [Font Awesome](https://fontawesome.com/).
 ### **Media**
