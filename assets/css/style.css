@@ -4,6 +4,8 @@ body {
     background-color: #702500;
     color: #FFF0B8;
     font-family: 'Roboto', sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 h1 {
@@ -92,6 +94,10 @@ h1 {
     justify-content: right;
 }
 
+iframe {
+    border: 0;
+}
+
 /* Menu of sections styles */
 
 #section-menu {
@@ -116,7 +122,7 @@ h1 {
 
 .caption {
     position: absolute;
-    bottom: 8px;
+    bottom: 30px;
     left: 16px;
     background-color: rgba(71, 71, 71, 0.5);
     color: #FFF0B8;
@@ -245,6 +251,19 @@ footer {
  /* Media queries for mobiles */
 
  @media (max-width: 580px) {
+
+    body {
+        padding: 0;
+    }
+
+    p {
+        font-size: large;
+        line-height: 24px;
+    }
+    
+    th, td {
+        font-size: large;
+    }
 
     iframe {
         width: 100%;
