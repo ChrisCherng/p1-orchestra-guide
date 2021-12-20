@@ -5,13 +5,11 @@
 ![Image from "Am I Responsive"](/assets/images/responsive-website-image.png)
 
 ## **Features**
-***
-### **Existing Features**
 
 * **Navigation Bar**
   - Featured on all pages to allow the user to navigate to all pages (home, and the four sections).
   - Identical on all pages to ensure consistency and easy user experience.
-  - Fully responsive navigation bar when using different screen sizes.
+  - Responsive navigation bar when using different screen sizes.
 
 ![The navigation bar with title and links to pages](/assets/images/navigation-bar.png)
 
@@ -23,9 +21,8 @@
 
 * **Introduction**
   - The introduction on the home page provides a welcome to users, along a brief description of the orchestra.
-  - A description is also included for how to navigate the site, using the images in the Explore section, to ensure users can easily find the content.
   - Additionally a video has been included of a famous orchestral work. This helps the user understand the orchestra as a whole, before exploring the separate sections individually. The video has been set to not autoplay, as this would be a poor user experience.
-  - This section is fully responsive, being a horizontal alignment for larger screens, and a vertial alignment for smaller screens.
+  - This section is responsive, being a horizontal alignment for larger screens, and a vertial alignment for smaller screens.
 
 ![The introduction section including the description and video](/assets/images/intro-section.png)
 
@@ -53,12 +50,7 @@
 
 ![The strings sub-page video section](/assets/images/famous-works-section.png)
 
-### **Features Left to Implement**
-
-* Hamburger menu for navigation when using small screens - to implement using Javascript.
-
 ## **Testing**
-***
 ### **Validator Testing**
 
 * HTML
@@ -70,7 +62,6 @@
   - Google Lighthouse report output a 100 score for accessibility.
 
 ## **Deployment**
-***
 The site was deployed to GitHub pages using the following steps:
 * In the GitHub repository, navigate to the Settings section.
 * Open the Pages section.
@@ -80,7 +71,6 @@ The site was deployed to GitHub pages using the following steps:
 The live link can be found here - https://chrischerng.github.io/p1-orchestra-guide/
 
 ## **Credits**
-***
 ### **Content**
 * The icons used in the headings were taken from [Font Awesome](https://fontawesome.com/).
 ### **Media**
