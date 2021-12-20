@@ -37,6 +37,7 @@
 
 * **Copyright Footer**
   - The footer contains the copyright information for the website and is present on all pages for consistency.
+  - Social media links to Twitter and Facebook have been included. These are small as they are not the focus of the site purpose.
 
 ![The copyright footer](/assets/images/copyright-section.png)
 
