@@ -20,7 +20,7 @@
 ![The hero image of an orchestra](/assets/images/orchestra-hero-image-2.jpeg)
 
 * **Introduction**
-  - The introduction on the home page provides a welcome to users, along a brief description of the orchestra.
+  - The introduction on the home page provides a welcome to users, along with a brief description of the orchestra.
   - Additionally a video has been included of a famous orchestral work. This helps the user understand the orchestra as a whole, before exploring the separate sections individually. The video has been set to not autoplay, as this would be a poor user experience.
   - This section is responsive, being a horizontal alignment for larger screens, and a vertial alignment for smaller screens.
 
@@ -46,7 +46,7 @@
 
 * **Famous Works**
   - Within each subpage, three videos are included for famous works related to that section.
-  - This will provide a real-life example, and bring to life the information on the page for the user, assisting with their learning.
+  - These will provide a real-life examples and bring to life the information on the page, assisting with the user's learning.
 
 ![The strings sub-page video section](/assets/images/famous-works-section.png)
 
@@ -59,7 +59,7 @@
   - No errors were found when using the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/).
 * Accessibility
   - No errors were detected when using the Wave (Web Accessibility Evaluation Tool) [extension](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh).
-  - Google Lighthouse report output a 100 score for accessibility.
+  - Google Lighthouse report outputs a 100 score for accessibility.
 
 ## **Deployment**
 The site was deployed to GitHub pages using the following steps:
