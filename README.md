@@ -1,6 +1,6 @@
 # **Guide to the Orchestra**
 
-<p>The Guide to the Orchestra aims to provide an exciting resource and educational site, targeted for students, musicians and anyone interested in classical music.</p>
+<p>The Guide to the Orchestra aims to provide an exciting resource and educational site, targeted at students, musicians and anyone interested in classical music.</p>
 
 ![Image from "Am I Responsive"](/assets/images/responsive-website-image.png)
 
@@ -22,7 +22,7 @@
 * **Introduction**
   - The introduction on the home page provides a welcome to users, along with a brief description of the orchestra.
   - Additionally a video has been included of a famous orchestral work. This helps the user understand the orchestra as a whole, before exploring the separate sections individually. The video has been set to not autoplay, as this would be a poor user experience.
-  - This section is responsive, being a horizontal alignment for larger screens, and a vertial alignment for smaller screens.
+  - This section is responsive, being a horizontal alignment for larger screens, and a vertical alignment for smaller screens.
 
 ![The introduction section including the description and video](/assets/images/intro-section.png)
 
@@ -45,8 +45,8 @@
 ![The strings sub-page introduction section](/assets/images/section-intro-section.png)
 
 * **Famous Works**
-  - Within each subpage, three videos are included for famous works related to that section.
-  - These will provide a real-life examples and bring to life the information on the page, assisting with the user's learning.
+  - Within each subpage, three videos are included of famous works related to that section.
+  - These will provide real-life examples and bring to life the information on the page, assisting with the user's learning.
 
 ![The strings sub-page video section](/assets/images/famous-works-section.png)
 
@@ -74,8 +74,10 @@ The live link can be found here - https://chrischerng.github.io/p1-orchestra-gui
 ### **Content**
 * The icons used in the headings were taken from [Font Awesome](https://fontawesome.com/).
 ### **Media**
-* The photos used thoughout this site have been taken from [Pexels](https://www.pexels.com/), an open source photo resource.
+* The photos used thoughout this site have been taken from the following open source resources:
+  -[Pexels](https://www.pexels.com/).
+  -[Flickr](https://www.flickr.com/photos/teia/36909231126), adapted from a photograph by TEIA.
 ### **People**
 * My mentor, Victor Miclovich, for his valuable insights, feedback and advice.
-* My partner, Scott, for his support through the project.
+* My partner, Scott, for his support throughout the project.
 * My family and friends for user testing and feedback.
