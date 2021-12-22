@@ -75,8 +75,8 @@ The live link can be found here - https://chrischerng.github.io/p1-orchestra-gui
 * The icons used in the headings were taken from [Font Awesome](https://fontawesome.com/).
 ### **Media**
 * The photos used thoughout this site have been taken from the following open source resources:
-  -[Pexels](https://www.pexels.com/).
-  -[Flickr](https://www.flickr.com/photos/teia/36909231126), adapted from a photograph by TEIA.
+  - [Pexels](https://www.pexels.com/).
+  - [Flickr](https://www.flickr.com/photos/teia/36909231126), adapted from a photograph by TEIA.
 ### **People**
 * My mentor, Victor Miclovich, for his valuable insights, feedback and advice.
 * My partner, Scott, for his support throughout the project.
